@@ -19,6 +19,7 @@ $(document).ready(function () {
     })
     //scroll function end-------
 
+
     // contact form validation start
     $('#submitContact').click(function (event) {
         var submit = false;
@@ -53,12 +54,17 @@ $(document).ready(function () {
             tcsubmit = false;
             event.preventDefault();
         }
+        var timeOut;
         // confirm contact has been sent. 
         if (submit === true && tcsubmit === true) {
             $('#contactFormDisplay').css("display", "none");
             $('#confirmHidden').css("display", "block")
-            event.preventDefault();
+
+
         }
+
+
+
     })
     // contact form validation end--------
 })

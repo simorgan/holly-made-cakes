@@ -1,6 +1,8 @@
 <?php
 include('inc/header.php');
+include('mail-contact.php')
 ?>
+
 
 <section>
 <!-- website intro start -->
@@ -153,11 +155,11 @@ include('inc/header.php');
 
 
 <!-- contact form start -->
-
 <div class="contact-form content-box" id="contactForm">
+ 
 <h2>Contact Us</h2>
 <p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly.</p>
-<form id="contactFormDisplay">
+<form id="contactFormDisplay" method="POST" >
   <div class="form-group">
 
  
@@ -188,8 +190,8 @@ include('inc/header.php');
   <input type="checkbox" class="form-check-input" name="checkBox" id="checkBox" >
     <label class="form-check-label" for="checkBox">I have read and agree to the <a href="#"> terms of service</a></label>  
   </div>
-
-  <button type="submit" id="submitContact" class="btn btn-primary">Submit</button>
+<input type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary" >
+  <!-- <button type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary">Submit</button> -->
 </form>
 
 </div>
@@ -199,8 +201,6 @@ include('inc/header.php');
 <!-- contact form end -->
 
 </section>
-
-
 
 
 <!-- include body scripts -->
