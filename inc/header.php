@@ -55,6 +55,9 @@
 <li class="nav-item">
     <a class="nav-link" href="#">Horse Box</a>
 </li>
+<li class="nav-item">
+    <a class="nav-link" href="#contactForm">Contact US</a>
+</li>
 
 </ul>
 

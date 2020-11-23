@@ -10,6 +10,8 @@
 |header.php 
 */
 
+
+/* Globel sytles start */
 *{
     margin:0;
     padding: 0;
@@ -40,6 +42,9 @@ a:hover{
     color: #C4A8D4;
 
 }
+
+
+/* Globel style end  */
 
 .social-media-nav a:hover{
     color: #ba59f2;
@@ -308,7 +313,8 @@ justify-content: center;
 
 .celebration-cakes h2{
     text-align: start;
-    font-family: 'Dancing Script', cursive;    color: #888888;
+    font-family: 'Dancing Script', cursive;    
+    color: #888888;
     font-size: 50px;
 }
 
@@ -327,7 +333,8 @@ justify-content: center;
 
 .wedding-cakes h2{
     text-align: end;
-    font-family: 'Dancing Script', cursive;    color: #888888;
+    font-family: 'Dancing Script', cursive;    
+    color: #888888;
     font-size: 50px;
 }
 /* wedding cakes end */
@@ -344,7 +351,8 @@ justify-content: center;
 
 .cup-cakes h2{
     text-align: start;
-    font-family: 'Dancing Script', cursive;    color: #888888;
+    font-family: 'Dancing Script', cursive;    
+    color: #888888;
     font-size: 50px;
 }
 /* cup cakes end */
@@ -359,14 +367,51 @@ justify-content: center;
 
 .tray-bakes h2{
     text-align: end;
-    font-family: 'Dancing Script', cursive;    color: #888888;
+    font-family: 'Dancing Script', cursive;    
+    color: #888888;
     font-size: 50px;
 }
 /* tary bakes end */
 /* 
 ---cakes end
 */
+/* 
+--- Contact form start
+*/
+.contact-form{
+    padding:2rem;
+    margin-top:3rem;
+    margin-bottom: 5rem;
+    background-color:rgba(255,255,255,0.5);
+    box-shadow: rgb(200, 200, 200) 2px 2px 20px 5px;
+}
 
+.contact-form h2{
+    text-align: start;
+    font-family: 'Dancing Script', cursive;    
+    color: #888888;
+    font-size: 40px;
+}
+.contact-form a{  
+    color:#C4A8D4 ;
+}
+/* message to display if tc not checked */
+#noCheck{
+    display: none;
+    margin-top: 1rem;
+}
+/* message to diplay if field left empty */
+.hiddenError{
+    display: none;
+}
+/* message to display to confirm message sent */
+#confirmHidden{
+display: none;
+}
+
+/* 
+--- Contact form end
+*/
 
 
 

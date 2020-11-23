@@ -148,14 +148,63 @@ include('inc/header.php');
     </div>
 </article>
 <!-- tray bakes article end -->
-</section>
+
 <!-- cakes section end -->
+
+
+<!-- contact form start -->
+
+<div class="contact-form content-box" id="contactForm">
+<h2>Contact Us</h2>
+<p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly.</p>
+<form id="contactFormDisplay">
+  <div class="form-group">
+
+ 
+    <label for="InputName">Name</label>
+    <p class="alert-danger hiddenError" id="name">Please enter you name.</p>
+    <input type="text" class="form-control" name="name" id="inputName" aria-describedby="Contact Name" placeholder="Enter Name">
+    
+    <label for="InputNumber">Contact Number</label>
+    <p class="alert-danger hiddenError" id="contactNum">Please enter your contact number.</p>
+    <input type="tel" class="form-control" name="contactNumber" id="inputContactNum" aria-describedby="emailHelp" placeholder="Enter Contact Number">
+    
+ 
+    <label for="exampleInputEmail1">Email address</label>
+    <p class="alert-danger hiddenError" id="email">Please enter your email address.</p>
+    <input type="email" class="form-control" name="email" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+    
+    <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
+
+
+
+ 
+    <label for="exampleInputPassword1">Message</label>
+    <p class="alert-danger hiddenError" id="message">Please include your inquiry.</p>
+    <textarea type="text" class="form-control" name="message" rows="6" id="inputMessage" placeholder="Enter your message..."></textarea>
+    <p class="alert-danger hiddenError" id="noCheck">Please confirm you arrgee to the terms of service!</p>  
+  <div class="form-check">
+  
+  <input type="checkbox" class="form-check-input" name="checkBox" id="checkBox" >
+    <label class="form-check-label" for="checkBox">I have read and agree to the <a href="#"> terms of service</a></label>  
+  </div>
+
+  <button type="submit" id="submitContact" class="btn btn-primary">Submit</button>
+</form>
+
+</div>
+
+</div>
+
+<!-- contact form end -->
+
+</section>
+
 
 
 
 <!-- include body scripts -->
 <?php
-include('inc/contact.php');
 include('inc/inc-script.php');
 
 include('inc/footer.php');
