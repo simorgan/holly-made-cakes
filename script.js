@@ -16,8 +16,25 @@ $(document).ready(function () {
             $('.cakes').css("left", 80)
         }
         //  cakes h1 move with scroll end
+        // ------------Gallery scroll to scroll box
+        // if (windowPosition > 350) {
+        //     $('#celebrate-cake').addClass("image-box-scroll");
+        // }
+        // if (windowPosition > 1050) {
+        //     $('#wedding-cake').addClass("image-box-scroll");
+        // }
+        // if (windowPosition > 1780) {
+        //     $('#cup-cake').addClass("image-box-scroll");
+        // }
+        // if (windowPosition > 2480) {
+        //     $('#other-cake').addClass("image-box-scroll");
+        // }
     })
     //scroll function end-------
+
+
+
+
 
 
     // contact form validation start
@@ -69,3 +86,4 @@ $(document).ready(function () {
     // contact form validation end--------
 })
 // document ready end
+

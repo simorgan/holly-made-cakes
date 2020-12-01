@@ -15,6 +15,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--script sheet-->
     <script src="script.js"></script>
+   
     <!-- google font CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
 
@@ -22,55 +23,50 @@
     
 
 </head>
+<!-- head end  -->
 <body>
-
-
+<div class="wapper">
+<!-- header start -->
 <header class="head-top d-flex justify-content-center">
-
-<img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018.">
-
-
-
+<a href="index.php"><img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018."></a>
 </header>
+<!-- header end -->
+<!-- top nav start -->
 <nav class="main-nav navbar navbar-expand-lg justify-content-center sticky-top">
 <ul class="navbar-nav">
 <li class="nav-item">
-    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="index.php">Home</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link smooth" href="#meet-holly">Meet Holly</a>
+    <a class="nav-link smooth" href="index.php#meet-holly">Meet Holly</a>
 </li>
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Cakes</a>
     <div class="dropdown-menu">
-      <a class="dropdown-item" href="#cakes">Celebration Cakes</a>
-      <a class="dropdown-item" href="#wedding-cakes-anchor">Wedding Cakes</a>
-      <a class="dropdown-item" href="#cup-cakes-anchor">Cup Cakes</a>
-      <a class="dropdown-item" href="#tray-bakes">Tray Bakes</a>
+      <a class="dropdown-item" href="index.php#cakes">Celebration Cakes</a>
+      <a class="dropdown-item" href="index.php#wedding-cakes-anchor">Wedding Cakes</a>
+      <a class="dropdown-item" href="index.php#cup-cakes-anchor">Cup Cakes</a>
+      <a class="dropdown-item" href="index.php#tray-bake-anchor">Tray Bakes</a>
     </div>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Gallery</a>
+    <a class="nav-link" href="gallery.php">Gallery</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#">Horse Box</a>
+    <a class="nav-link" href="horse-box.php">Horse Box</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link" href="#contactForm">Contact US</a>
+    <a class="nav-link" href="index.php#contact-form-anchor">Contact US</a>
 </li>
-
 </ul>
-
-
-
 </nav>
-
+<!-- top nav end -->
+<!-- social media side nav start -->
 <nav class="social-media-nav">
 <ul class="sticky-nav">
     <li class="nav-item d-inline"><a href="https://www.facebook.com/HollymadeCakes/" class="fab fa-facebook-f" ></a></li>
     <li class="nav-item d-inline"><a href="#" class="fab fa-twitter"></a></li>
     <li class="nav-item d-inline"><a href="https://www.instagram.com/hollymadecakes/?hl=en" class="fab fa-instagram"></a></li>
 </ul>
-
 </nav>
-
+<!-- social media side nav end -->

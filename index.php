@@ -7,7 +7,45 @@ include('mail-contact.php')
 <section>
 <!-- website intro start -->
 <article class="intro">
+    <aside>
+<!-- slideshow container start  -->
+<div class="slider">
+<!-- slide images start -->
+     <div class="slide current">
+        <div class="content">
+           <a href="#cakes"><h1>Celebration Cakes</h1></a>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recus.</p>
+         </div>
+     </div>
+     <div class="slide ">
+         <div class="content">
+            <a href="#wedding-cakes-anchor"> <h1>Wedding Cakes</h1></a>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recus.</p>
+         </div>
+     </div>
+     <div class="slide">
+         <div class="content">
+             <a href="#cup-cakes-anchor"><h1>Cup Cakes</h1></a>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recu.</p>
+         </div>
+     </div>
+     <div class="slide">
+         <div class="content">
+             <a href="horse-box.php"><h1>Horse Box</h1></a>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Recus.</p>
+         </div>
+     </div>
+   
+     <!-- slide images end -->
     
+ </div>
+    </aside>
+<!-- slideshow container end  -->
+
 <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
      Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -15,58 +53,6 @@ include('mail-contact.php')
      reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
      pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
      culpa qui officia deserunt mollit anim id est laborum."</p>
-<!-- asside starts -->
-<aside>
-    <!-- slidesshow start -->
-<div class="slideshow">
-    <!-- slide start -->
-    <div class="slides">
-        <!-- radio buttons start -->
-        <input type="radio" name="radio-btn" id="radio1">
-        <input type="radio" name="radio-btn" id="radio2">
-        <input type="radio" name="radio-btn" id="radio3">
-        <input type="radio" name="radio-btn" id="radio4">
-        <!-- radio buttons end -->
-        <!--slide images start  -->
-        <div class="slide first">
-            <img src="images/home-slider/cake1.jpg" alt="">
-            <h1>cake test</h1>
-        </div>
-        <div class="slide">
-            <img src="images/home-slider/cake2.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="images/home-slider/cake3.jpg" alt="">
-        </div>
-        <div class="slide">
-            <img src="images/home-slider/cake4.jpg" alt="">
-        </div>
-        <!--slide images end -->
-        <!-- auto slide start -->
-        <div class="navigation-auto">
-            <div class="auto-btn1"></div>
-            <div class="auto-btn2"></div>
-            <div class="auto-btn3"></div>
-            <div class="auto-btn4"></div>
-        </div>
-        <!-- auto slide end --> 
-
-    </div>
-    <!-- slide end -->
-    <!-- manual navigation start -->
-    <div class="navigation-manual">
-        <label for="radio1" class="manual-btn"></label>
-        <label for="radio2" class="manual-btn"></label>
-        <label for="radio3" class="manual-btn"></label>
-        <label for="radio4" class="manual-btn"></label>
-    </div>
-    <!-- manual navigation end -->
-</div>
-<!-- slideshow end -->
-
-
-</aside>
-<!-- aside end -->
 
 </article>
 </section>
@@ -77,10 +63,13 @@ include('mail-contact.php')
 <article id="meet-holly">
 <h1 class="meet-holly">Meet Holly<img src="images/whisk.jpg" alt=""></h1>
 <img class="holly-image" src="images/holly.jpg" alt="">
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-    excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-    officia deserunt mollitia animi, id est laborum et dolorum fuga."</p>
+<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sint,
+    nihil quisquam quidem nemo maxime, aspernatur numquam dolor vero veniam consequuntur
+    unde recusandae possimus, ipsam accusantium hic quas perferendis tempora fugiat temporibus
+    consectetur! Sapiente perspiciatis praesentium, molestiae quo delectus ipsum 
+    repellendus nemo voluptate laborum non ipsam, ullam eius earum odit aliquid architecto
+    facilis illum vero ut! Cupiditate facere fuga, tempore sed incidunt quod, nostrum iure 
+    similique eveniet deleniti ducimus repellat, totam impedit inventore consequuntur nobis!</p>
 </article>
 
 </section>
@@ -98,7 +87,8 @@ include('mail-contact.php')
     excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
     officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
     quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat."</p>
+    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#celebrate-anchor">See more</a></p>
+  
     </div>
 </article>
 <!-- celebration cakes article end -->
@@ -114,7 +104,7 @@ include('mail-contact.php')
     excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
     officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
     quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat."</p>
+    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#wedding-cake-anchor">See more</a></p>
 
   
 
@@ -132,12 +122,13 @@ include('mail-contact.php')
     excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
     officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
     quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat."</p>
+    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#cup-cake-anchor">See more</a></p>
     </div>
 </article>
 <!-- cup cakes article end -->
 <!-- tray bakes article starts -->
-<article class="tray-bakes">
+<div id="tray-bake-anchor"></div>
+<article class="tray-bakes">   
 <h2 id="tray-bakes">Tray Bakes</h2>
 <div class="box-content-pright">
     <img src="images/tray-bakes.jpg" alt="">
@@ -146,7 +137,7 @@ include('mail-contact.php')
     excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
     officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
     quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat."</p>
+    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#cup-cake-anchor">See more</a></p>
     </div>
 </article>
 <!-- tray bakes article end -->
@@ -155,6 +146,7 @@ include('mail-contact.php')
 
 
 <!-- contact form start -->
+<div id="contact-form-anchor"></div>
 <div class="contact-form content-box" id="contactForm">
  
 <h2>Contact Us</h2>
@@ -204,6 +196,7 @@ include('mail-contact.php')
 
 
 <!-- include body scripts -->
+<script src="gallerySlider.js"></script>
 <?php
 include('inc/inc-script.php');
 
@@ -211,7 +204,7 @@ include('inc/footer.php');
 ?>
 
 
-
+</div>
 
 </body>
 </html>
