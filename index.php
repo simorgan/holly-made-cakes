@@ -4,7 +4,7 @@ include('mail-contact.php')
 ?>
 
 
-<section>
+<section id="page-section">
 <!-- website intro start -->
 <article class="intro">
     <aside>
@@ -60,6 +60,7 @@ include('mail-contact.php')
 
 <section>
 <!-- meet holly section start -->
+<div id="meet-holly-anchor"></div>
 <article id="meet-holly">
 <h1 class="meet-holly">Meet Holly<img src="images/whisk.jpg" alt=""></h1>
 <img class="holly-image" src="images/holly.jpg" alt="">
@@ -75,6 +76,7 @@ include('mail-contact.php')
 </section>
 <!-- meet holly section end -->
 <!-- cakes section start -->
+<div id="cakes-anchor"></div>
 <section id="cakes">
 <h1 class="cakes"><img src="images/whisk.jpg" alt="">Cakes</h1>
 <!-- celebration cakes article start -->
@@ -151,7 +153,7 @@ include('mail-contact.php')
  
 <h2>Contact Us</h2>
 <p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly.</p>
-<form id="contactFormDisplay" method="POST" >
+<form id="contactFormDisplay" method="POST">
   <div class="form-group">
 
  
@@ -179,9 +181,10 @@ include('mail-contact.php')
     <p class="alert-danger hiddenError" id="noCheck">Please confirm you arrgee to the terms of service!</p>  
   <div class="form-check">
   
-  <input type="checkbox" class="form-check-input" name="checkBox" id="checkBox" >
+  <input type="checkbox" class="form-check-input checkbox-pad" name="checkBox" id="checkBox" >
     <label class="form-check-label" for="checkBox">I have read and agree to the <a href="#"> terms of service</a></label>  
   </div>
+  <input type="hidden" name="contact-type" value="Website" id="treat-box-contact">
 <input type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary" >
   <!-- <button type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary">Submit</button> -->
 </form>

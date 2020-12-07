@@ -1,7 +1,7 @@
 <?php
 
 // inquiry emailed to site admin start
-function mailOut($name, $contactNum, $email, $message){
+function mailOut($name, $contactNum, $email, $message, $contantType){
     require_once('phpMailer/PHPMailerAutoload.php');
     $mail = new PHPMailer();
     $mail->isSMTP();
@@ -14,7 +14,7 @@ function mailOut($name, $contactNum, $email, $message){
     $mail->Password = 'cee73aefc22470';
     $mail->SetFrom($email);
     $mail->addReplyTo($email);
-    $mail->Subject = 'Website Inquiry';
+    $mail->Subject = $contantType .' Inquiry';
     $mail->AddEmbeddedImage('images/logo.png', 'logo');
     $mail->Body = '<img style="display: block;
                   margin-left: auto;
@@ -47,7 +47,7 @@ function comfirmationReply($name,$contactNum,$email,$message){
     $mail->Password = 'cee73aefc22470';
     $mail->SetFrom('hollymadecakes@cakes.com');
     $mail->addReplyTo('hollymadecakes@cakes.com');
-    $mail->Subject = 'Holly Made Cakes Inquiry';
+    $mail->Subject = 'Holly Made Cakes';
     $mail->AddEmbeddedImage('images/logo.png', 'logo');
     $mail->Body = '<img style="display: block;
                   margin-left: auto;
@@ -69,8 +69,9 @@ if (isset($_POST['contactSubmited'])){
     $contactNum = $_POST['contactNumber'];
     $email = $_POST['email'];
     $message = $_POST['message'];
+    $contantType = $_POST['contact-type'];
 
-    mailOut($name, $contactNum, $email, $message);
+    mailOut($name, $contactNum, $email, $message,$contantType);
 }
 
 ?>
