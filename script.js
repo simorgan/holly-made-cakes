@@ -1,124 +1,73 @@
 $(document).ready(function () {
-
-    $(window).scroll(function () {
+    $(document).scroll(function () {
+        // sticky nav start
         var scrollVal = $(this).scrollTop();
+        // console.log(scrollVal);
         if (scrollVal > 177) {
             $('#sticky-main-navbar').css({ 'position': 'fixed', 'top': '0px', 'width': '100%' })
-            // $('#page-section').css('padding-top', '50px')
         } else {
             $('#sticky-main-navbar').css({ 'position': 'static', 'top': 'auto' })
         }
+        // sticky nav end
+        // holly and cakes title move into view start
+        var titlePos = $('.meet-holly-title').offset().top - window.scrollY - 70;
+        var cakeTitlePos = $('.cakes-title').offset().top - window.scrollY - 70;
+        if (titlePos < 5) {
+            $('.meet-holly-title').css("right", 0)
+
+        } else {
+            $('.meet-holly-title').css("right", titlePos)
+
+        }
+        if (cakeTitlePos < 5) {
+            $('.cakes-title').css("left", 0)
+        } else {
+            $('.cakes-title').css("left", cakeTitlePos)
+        }
+        // holly and cakes title move into view end.
 
     })
 
-    var windowWidth = $(window).width()
 
-    // console.log(windowWidth);
-
-
-    // moving the page titles in from the side    
-    $(document).scroll(function () {
-        var windowPosition = scrollY
-
-        // meet-holly h1 move with scroll start
-        if (windowWidth > 1200) {
-            // console.log('over 1200', windowPosition);
-            if (windowPosition < 905) {
-                $('.meet-holly').css("right", Math.max(500 - window.scrollY / 2 + 30))
-            } if (windowPosition > 905) {
-                $('.meet-holly').css("right", 80)
-            }
-            // meet-holly h1 move with scroll end
-            //  cakes h1 move with scroll start
-            if (windowPosition < 1580) {
-                $('.cakes').css("left", Math.max(446 - window.scrollY / 4 + 30))
-            } if (windowPosition > 1580) {
-                $('.cakes').css("left", 80)
-            }
-        }
-        if (windowWidth < 1200) {
-            // console.log('under 1200', windowPosition);
-            if (windowPosition < 793) {
-                $('.meet-holly').css("right", Math.max(446 - window.scrollY / 2 + 30))
-            } if (windowPosition > 793) {
-                $('.meet-holly').css("right", 80)
-            }
-            // meet-holly h1 move with scroll end
-            //  cakes h1 move with scroll start
-            if (windowPosition < 1580) {
-                $('.cakes').css("left", Math.max(446 - window.scrollY / 4 + 30))
-            } if (windowPosition > 1580) {
-                $('.cakes').css("left", 80)
-            }
-            // console.log(windowPosition)
-            //  cakes h1 move with scroll end
-        } if (windowWidth < 900) {
-            // console.log('under 900', windowPosition);
-            // console.log(windowPosition)
-            // console.log('window width is', windowWidth)
-            if (windowPosition < 1180) {
-                $('.meet-holly').css("right", Math.max(570 - window.scrollY / 2 + 30))
-            } if (windowPosition > 1180) {
-                $('.meet-holly').css("right", 10.5)
-            }
-            // meet-holly h1 move with scroll end
-            //  cakes h1 move with scroll start
-            if (windowPosition < 1975) {
-                $('.cakes').css("left", Math.max(570 - window.scrollY / 4 + 30))
-            } if (windowPosition > 1975) {
-                $('.cakes').css("left", 106.5)
-            }
-        } if (windowWidth < 700) {
-            // console.log('else', windowPosition);
-            // console.log('window width is under 900');
-            // console.log(windowPosition);
-            if (windowPosition < 1180) {
-                $('.meet-holly').css("right", Math.max(550 - window.scrollY / 2 + 30))
-            } if (windowPosition > 1180) {
-                $('.meet-holly').css("right", 10.5)
-            }
-            // meet-holly h1 move with scroll end
-            //  cakes h1 move with scroll start
-            if (windowPosition < 2300) {
-                $('.cakes').css("left", Math.max(550 - window.scrollY / 4 + 30))
-            } if (windowPosition > 2300) {
-                $('.cakes').css("left", 125)
-            }
-        }
-
-
-
-
-
-
-
-
-    })
-    //scroll function end-------
-
+    var windowWidth = $(window).width() // width of the window
     $("#meet-holly-link, #celebration-link ,#wedding-cakes-link, #cup-cake-link, #tray-bake-link").each(function () {
         $(this).on("click", function () {
-            if (windowWidth < 900 && scrollY < 1) {
-                $('#meet-holly-anchor').css("bottom", "20rem")
-                $('#cakes-anchor').css("bottom", "31rem")
-                $('#wedding-cakes-anchor').css("bottom", "31rem")
-                $('#cup-cakes-anchor').css("bottom", "31rem")
-                $('#tray-bake-anchor').css("bottom", "31rem")
-
+            if ($(document).scrollTop() < 177) { //set anchorPos when there is no header
+                var anchorPos = $(this).offset().top - window.scrollY + 70;
+                console.log('header is shown');
             } else {
-                $('#meet-holly-anchor').css("bottom", "3rem")
-                $('#cakes-anchor').css("bottom", "3rem")
-                $('#wedding-cakes-anchor').css("bottom", "3rem")
-                $('#cup-cakes-anchor').css("bottom", "3rem")
-                $('#tray-bake-anchor').css("bottom", "3rem")
+                var anchorPos = $(this).offset().top - window.scrollY + 188;
+                console.log('header is not shown');
             }
+
+            $('#meet-holly-anchor').css("bottom", anchorPos)
+            $('#cakes-anchor').css("bottom", anchorPos)
+            $('#wedding-cakes-anchor').css("bottom", anchorPos)
+            $('#cup-cakes-anchor').css("bottom", anchorPos)
+            $('#tray-bake-anchor').css("bottom", anchorPos)
+            // $(this).css("bottom", anchorPos);
+
+            // if (windowWidth < 900 && scrollY < 1) {
+            //     $('#meet-holly-anchor').css("bottom", "20rem")
+            //     $('#cakes-anchor').css("bottom", "31rem")
+            //     $('#wedding-cakes-anchor').css("bottom", "31rem")
+            //     $('#cup-cakes-anchor').css("bottom", "31rem")
+            //     $('#tray-bake-anchor').css("bottom", "31rem")
+
+            // } else {
+            //     $('#meet-holly-anchor').css("bottom", "3rem")
+            //     $('#cakes-anchor').css("bottom", "3rem")
+            //     $('#wedding-cakes-anchor').css("bottom", "3rem")
+            //     $('#cup-cakes-anchor').css("bottom", "3rem")
+            //     $('#tray-bake-anchor').css("bottom", "3rem")
+            // }
         })
     })
 
 
 
 
-    // contact form validation start
+    // contact form validation start------------------------
     $('#submitContact').click(function (event) {
         var submit = false;
         var tcsubmit = false;
@@ -162,7 +111,7 @@ $(document).ready(function () {
 
         }
     })
-    // contact form validation end--------
+    // contact form validation end----------------------
 
     $('.dropdown-coll').on('click', function () {
         $('.navbar-collapse').collapse('hide');

@@ -110,6 +110,7 @@ ul{
     margin:0 auto;
     display: flex;
     margin-top:1rem;
+    text-align: center;
 }
 
 .intro p{
@@ -122,7 +123,19 @@ ul{
 .intro aside{
     order: 2;
 }
-
+.inline-title{
+    color: #F8DFC0;
+    font-family: "Times New Roman", serif;
+    font-weight: 800;
+}
+.inline-title-cake{
+    font-family: 'Dancing Script', cursive;    
+    color: #ffff;
+}
+.inline-title-background{
+    text-shadow:#7203b3 0px 0px 5px;
+    font-size: 1.5rem;
+}
 /* slideshow start */
   .slider{
       position: relative;
@@ -145,6 +158,7 @@ ul{
     height: 100%;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
+    text-align: left;
 }
 
 
@@ -164,6 +178,7 @@ ul{
     background-color: rgba(255, 255, 255, 0.8);
     padding: 1rem 2rem ;
     border-radius:0 20px 20px 0;
+    
 }
 .slide .content p{
     margin-top: 1rem;
@@ -182,13 +197,13 @@ ul{
 }
 
 .slide:first-child {
-    background: url('images/slider/slideimg1.jpg') no-repeat center center/cover;
+    background: url('images/slider/slideimg5.jpg') no-repeat center center/cover;
 } 
 .slide:nth-child(2){
-    background: url('images/slider/slideimg2.jpg') no-repeat center top/cover;
+    background: url('images/slider/slideimg6.jpg') no-repeat center top/cover;
 }
 .slide:nth-child(3){
-    background: url('images/slider/slideimg3.jpg') no-repeat center top/cover;
+    background: url('images/slider/slideimg7.jpg') no-repeat center top/cover;
 }
 .slide:nth-child(4){
     background: url('images/slider/slideimg4.jpg') no-repeat center top/cover;
@@ -248,8 +263,9 @@ ul{
 ---meet holly starts
 */
 #meet-holly-anchor{
-    position: relative;
+    padding-top:2rem;
 }
+
 #meet-holly{
     max-width: 80rem;
     margin:0 auto;
@@ -259,22 +275,23 @@ ul{
     align-items: center;
     text-align: center;
 }
-#meet-holly h1{
+.meet-holly-title{
     position: relative;
-    right: 370px;
-    padding: 0.5rem 1rem 1rem 5rem;
-    margin-right: 20rem;
+    right: 828px;
+    margin-right: 65%;
     margin-top:8rem;
     margin-bottom: 3rem;
-    align-self: start;
+    padding:1rem 1rem;
+    text-align: end;
     background-color:#C4A8D4;
     border-radius: 0 4rem 1rem 0;
     color: #F8DFC0;
     font-family: "Times New Roman", serif;
+    font-size: 2rem;
     font-weight: 800;
     overflow: hidden;
 }
-#meet-holly h1 img{
+.meet-holly-title img{
     padding-right:1rem;
     transform: scaleX(-1);
     width: 80px;
@@ -299,9 +316,7 @@ ul{
 /* 
 ---cakes start
 */
-#cakes-anchor{
-    position: relative;
-}
+
 #cakes{
     max-width: 80rem;
     margin:0 auto;
@@ -311,22 +326,22 @@ ul{
     align-items: center;
    
 }
-#cakes h1{
+.cakes-title{
     position: relative;
-    left:400px;
-    padding: 0.5rem 12rem 1rem 1rem;
-    margin-right:0;
+    padding:1rem 1rem;
+    margin-left:65%;
     margin-top:8rem;
     margin-bottom: 3rem;
-    align-self: flex-end;
+    text-align: start;
     background-color:#C4A8D4;
     border-radius: 4rem 0 0 1rem ;
     color: #F8DFC0;
     font-family: "Times New Roman", serif;
     font-weight: 800;
+    font-size: 2rem;
 
 }
-#cakes h1 img{
+.cakes-title img{
     padding-right:1rem;
     width: 80px;
     height: 40px;
@@ -382,10 +397,22 @@ ul{
 
 /* celebration cakes end */
 /* wedding cakes start */
-#wedding-cakes-anchor{
-    position: relative;
- 
+#cakes-anchor{
+    padding-top:3rem;
 }
+#wedding-cakes-anchor{
+    padding-top:3rem;
+}
+#cup-cakes-anchor{
+    padding-top:3rem;
+}
+#tray-bake-anchor{
+    padding-top:3rem;
+}
+#contact-form-anchor{
+    padding-top:3rem;
+}
+
 .wedding-cakes{
     align-content: center;
     padding:2rem;
@@ -402,9 +429,7 @@ ul{
 }
 /* wedding cakes end */
 /* cup cakes start */
-#cup-cakes-anchor{
-    position: relative;
-}
+
 .cup-cakes{
     padding:2rem;
     margin-top:3rem;
@@ -420,9 +445,6 @@ ul{
 }
 /* cup cakes end */
 /* tray bakes start */
-#tray-bake-anchor{
-    position: relative;
-}
 .tray-bakes{
     padding:2rem;
     margin-top:3rem;
@@ -444,9 +466,7 @@ ul{
 /* 
 --- Contact form start
 */
-#contact-form-anchor{
-    padding-top:6rem;
-}
+
 .contact-form{
     padding:2rem;
     margin-top:3rem;
@@ -521,16 +541,27 @@ footer p{
 
 
 /* ------------Gallery page start-------------*/
-
 .title{
     position: relative;
-    top:5rem;
-    left:6rem;
+    top:1rem;
     color:#F8DFC0 ;
     text-shadow: #d9b4ee 0 2px;
     font-family: "Times New Roman", serif;
     font-weight: 800;
     font-size: 5rem;
+    padding: 0.5rem 1rem 1rem 5rem;
+    margin-right: 60rem;
+    margin-top:4rem;
+    margin-bottom: 1rem;
+    align-self: start;
+    background-color:#C4A8D4;
+    border-radius: 0 4rem 1rem 0;
+    overflow: hidden;
+    animation: title-move 2s;
+}
+@keyframes title-move{
+    from{right:30rem}
+    to{right:0rem}
 }
 #celebrate-anchor{
     padding-top:2rem;
@@ -600,7 +631,29 @@ footer p{
   }
 
 /* ------------treat box page start-------------*/
+.treat-h1{
+    position: relative;
+    bottom:3rem;
+    font-family: "Times New Roman", serif;
+    color:#F8DFC0;
+    background-color:rgba(196, 168, 212, 0.8); 
+    border-radius: 0 0 15px 15px;
+    padding:1rem ;
+    margin:0 20rem;
+    text-shadow: #d9b4ee 0 2px;
+    font-family: "Times New Roman", serif;
+    font-weight: 800;
+    font-size: 5rem;
+    animation-name: title-dropdown;
+    animation-duration: 4s;
+}
+@keyframes title-dropdown{
+   0%{ bottom: 12rem;}
+   100%{ bottom:3rem;}
+}
+
 .treat-box-container{
+    
     width:90%;
     height: 100%;
     margin-left:auto;
@@ -612,9 +665,10 @@ footer p{
     background-position: center;
     border-radius: 5px;
     text-align: center;
+    overflow: hidden;
 }
 .over-lay{
-    padding:3rem 1rem;
+    padding:2rem 1rem;
     width:100%;
     height: 100%;
     margin:auto;
@@ -624,6 +678,9 @@ footer p{
    
     
     
+}
+.treat-content{
+    margin-top:1rem;
 }
 .over-lay p{
     font-size: 20px;
@@ -740,19 +797,20 @@ footer p{
         width: 60px;
         height: 40px;
     }
-    #meet-holly h1{
+    .meet-holly-title{
         font-weight: 600;
         font-size: 2rem;
-        margin-right:2rem;
+        margin-right: 10%;
     }
     #cakes h1 img{
         width: 60px;
         height: 40px;
     
     }
-    #cakes h1{
+    .cakes-title{
         font-weight: 600;
         font-size: 2.2rem;
+        margin-left :10%;
        
     }
     #cakes{
@@ -822,23 +880,8 @@ footer p{
     .contact-form{
         padding:1rem;
     }
-    #wedding-cakes-anchor{
-        margin: 1rem;
-        padding: 0;
-    }
-    #cup-cakes-anchor{
-        margin: 1rem;
-        padding: 0;
-    }
-    #tray-bake-anchor{
-        margin: 1rem;
-        margin-bottom: 0;
-        padding: 0;
-    }
-    #contact-form-anchor{
-        margin: 1rem;
-        padding: 0;
-    }
+ 
+
     .contact-form{
         margin:0;
     }

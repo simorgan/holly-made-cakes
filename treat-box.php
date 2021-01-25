@@ -2,17 +2,19 @@
 include('inc/header.php');
 include('mail-contact.php');
 ?>
+
 <section class="treat-box-container">
     <div class="over-lay">
+      
+    <h1 class="treat-h1">Treat Box</h1>
+    
 <article>
 <div class="treat-content">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-    Incidunt maxime, voluptas voluptatem vero temporibus a cum ab autem qui
-    totam architecto magni ea porro sunt laudantium necessitatibus 
-    eveniet doloremque earum. Lorem ipsum, dolor sit amet consectetur 
-    adipisicing elit. Culpa natus voluptatum mollitia incidunt blanditiis 
-    fugit impedit iste eos consequuntur officiis? Est cupiditate amet reprehenderit 
-    earum perspiciatis eius omnis sit. Quos iure placeat animi explicabo quae corporis in quod at ipsa.</p>
+    <p>This adorable mobile unit provides a unique sense of occasion to any event,
+       and an unforgettable experience for your guests. Working with likeminded 
+       suppliers in the West Country ensuring to use fresh local produce, 
+       we specialise in serving afternoon teas, home baked cakes and speciality teas.
+</p>
     <div class="images">
     <img src="images/treat-box/img1.jpg" alt="">
     <img src="images/treat-box/img8.jpg" alt="">
@@ -23,7 +25,7 @@ include('mail-contact.php');
   
 </article>
 <article class="treat-contact">
-<p>To inquire about booking the treat box for your event please contact us via the contact form below.</p>
+<p>Our Treat Box is available for hire. Perfect for weddings parties and birthdays, or if you are organising a fete or village day. Please drop us a message using the contact form below for more information.</p>
 <div class="contact-form content-box" id="contactForm">
  
 <h2>Contact Us</h2>

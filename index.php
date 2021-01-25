@@ -14,29 +14,26 @@ include('mail-contact.php')
      <div class="slide current">
         <div class="content">
            <a href="#cakes"><h1>Celebration Cakes</h1></a>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recus.</p>
+             <p>Custom made cakes made to suit any occasion, guaranteed to impress your guests. </p>
          </div>
      </div>
-     <div class="slide ">
+     <div class="slide">
          <div class="content">
             <a href="#wedding-cakes-anchor"> <h1>Wedding Cakes</h1></a>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recus.</p>
+             <p>Let us bring your dream wedding cake to life and be a part of your big day.</p>
          </div>
      </div>
      <div class="slide">
          <div class="content">
              <a href="#cup-cakes-anchor"><h1>Cup Cakes</h1></a>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recu.</p>
+             <p>Delicious bundles of joy lovingly made to order in a verity of flavours.
+                  </p>
          </div>
      </div>
      <div class="slide">
          <div class="content">
-             <a href="horse-box.php"><h1>Horse Box</h1></a>
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Recus.</p>
+             <a href="treat-box.php"><h1>Treat Box</h1></a>
+             <p>This adorable mobile unit provides a unique sense of occasion to any event, and an unforgettable experience for your guests.</p>
          </div>
      </div>
    
@@ -46,13 +43,12 @@ include('mail-contact.php')
     </aside>
 <!-- slideshow container end  -->
 
-<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-     nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-     reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
-     pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-     culpa qui officia deserunt mollit anim id est laborum."</p>
+<p>Welcome to <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>, my home-based cake business established in 2018,
+proudly serving Radstock, Midsomer Norton, Bath and surrounding areas. Whether it’s a slice of 
+cake brought through one of our stockiest <u><i><a href="https://www.facebook.com/meadgatefarmshop/" target="_blank">found here</a></i></u>, or the dream wedding cake we have created for you, 
+our aim is to dazzle your tastebuds whilst putting a smile on your face. You can be assured we will make your cake dreams come true. 
+</br> </br>Please have a look at the fantastic range of cakes and treats we have to offer, and please do get in touch with any inquiries you may have.  
+</p>
 
 </article>
 </section>
@@ -61,35 +57,40 @@ include('mail-contact.php')
 <section>
 <!-- meet holly section start -->
 <div id="meet-holly-anchor"></div>
+<p class="meet-holly-title">Meet Holly<img src="images/whisk.jpg" alt=""></p>
+
 <article id="meet-holly">
-<h1 class="meet-holly">Meet Holly<img src="images/whisk.jpg" alt=""></h1>
+
 <img class="holly-image" src="images/holly.jpg" alt="">
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt sint,
-    nihil quisquam quidem nemo maxime, aspernatur numquam dolor vero veniam consequuntur
-    unde recusandae possimus, ipsam accusantium hic quas perferendis tempora fugiat temporibus
-    consectetur! Sapiente perspiciatis praesentium, molestiae quo delectus ipsum 
-    repellendus nemo voluptate laborum non ipsam, ullam eius earum odit aliquid architecto
-    facilis illum vero ut! Cupiditate facere fuga, tempore sed incidunt quod, nostrum iure 
-    similique eveniet deleniti ducimus repellat, totam impedit inventore consequuntur nobis!</p>
+<p>Let me introduce myself. I am Holly an enthusiastic and ambitious 24-year-old baker.
+ Cooking and baking has always been a big part of my life, with family get togethers 
+ always based around what we’re going to eat. At 16 I attended Bath College to study
+  catering and hospitality, alongside working at a local Farm shop. Jumping at any chance 
+  to make the cakes served in the farm shop café, I quickly realised my passion lied with baking. <br>
+After a few years of working in different kitchens I decided it was time to take plunge and start 
+up on my own cake business. With lots of support from my family along with opportunity to supply Meadgate Farm Shop with my cakes, <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>was born.
+
+</p>
 </article>
 
 </section>
 <!-- meet holly section end -->
 <!-- cakes section start -->
 <div id="cakes-anchor"></div>
+<p class="cakes-title"><img src="images/whisk.jpg" alt="">Cakes</p>
 <section id="cakes">
-<h1 class="cakes"><img src="images/whisk.jpg" alt="">Cakes</h1>
+
 <!-- celebration cakes article start -->
 <article class="celebration-cakes">
 <h2 >Celebration Cakes</h2>
 <div class="box-content-pleft">
     <img src="images/celebration-cake.jpg" alt="">
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-    excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
-    quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#celebrate-anchor">See more</a></p>
+<p>Do you have a special celebration coming up or want to treat someone special?
+Be it birthday cake, retirement cake, christening cake or just a teatime treat, 
+we do it all. If you know what design you are wanting or need a bit of help creating 
+your desired cake, leave it to us to bake something unique that is guaranteed to be the 
+centre piece for any party. All our cakes are made to order and are priced depending serving size, 
+flavours, decoration and design. For more information, please contact us through the contact form below. To see some of our work please see <a href="gallery.php#celebrate-anchor">Here.</a></p>
   
     </div>
 </article>
@@ -101,12 +102,12 @@ include('mail-contact.php')
 <h2 id="wedding-cakes">Wedding Cakes</h2>
 <div class="box-content-pright">
 <img src="images/wedding-cake.jpg" alt="">
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-    excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
-    quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#wedding-cake-anchor">See more</a></p>
+<p>Let us bring your dream wedding cake to life. If you're planning your big day, 
+we recommend booking a consultation with us, where we can meet face to face, 
+go over all the details making that dream cake a reality.<br><br>
+Wedding cake consultation and tasting is £25 for 2 people, 
+this cost is deducted from the cake cost. Please see some of our past creations   
+ <a href="gallery.php#wedding-cake-anchor">Here.</a></p>
 
   
 
@@ -119,12 +120,10 @@ include('mail-contact.php')
 <h2 id="cup-cakes">Cup Cakes</h2>
 <div class="box-content-pleft">
     <img src="images/cup-cakes.jpg" alt="">
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-    excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
-    quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#cup-cake-anchor">See more</a></p>
+<p>Who does not like a cupcake? We make cupcakes to order which are available in a
+ range of flavours and styles to suit. So, if you are planning a party or just a family get together,
+  make sure to add some of our amazing cupcakes to the food table. Cupcakes start from £1.50 each. 
+  To see some of the range we offer please see<a href="gallery.php#cup-cake-anchor"> Here.</a></p>
     </div>
 </article>
 <!-- cup cakes article end -->
@@ -134,12 +133,11 @@ include('mail-contact.php')
 <h2 id="tray-bakes">Tray Bakes</h2>
 <div class="box-content-pright">
     <img src="images/tray-bakes.jpg" alt="">
-<p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias
-    excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui
-    officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum 
-    quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta
-    nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat." <a href="gallery.php#cup-cake-anchor">See more</a></p>
+<p>Simple, no-fuss cakes, brownies, shortbread and other goodies to be cut
+ into squares and feed a crowd. Ideal if you have a big party coming up and 
+ need to order for the hundreds, or if you just need something for a planned picnic.
+  We can make to any sized order. Please get in touch with your requirement and we 
+  will be happy to help. See some of our bakes <a href="gallery.php#cup-cake-anchor">Here </a> just to get you hungry <i style="color:#C4A8D4;"class="fas fa-laugh-wink"></i>. </p>
     </div>
 </article>
 <!-- tray bakes article end -->
