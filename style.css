@@ -66,12 +66,14 @@ ul{
     list-style: none;
 }
 
+
 .head-top{
     background-color: #C4A8D4 ;
 
 }
 .head-top img{
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .social-media-nav li{
@@ -541,16 +543,17 @@ footer p{
 
 
 /* ------------Gallery page start-------------*/
-.title{
+.gallery-title{ 
     position: relative;
     top:1rem;
     color:#F8DFC0 ;
     text-shadow: #d9b4ee 0 2px;
+    text-align: end;
     font-family: "Times New Roman", serif;
     font-weight: 800;
     font-size: 5rem;
-    padding: 0.5rem 1rem 1rem 5rem;
-    margin-right: 60rem;
+    padding: 0.5rem 2rem 1rem 5rem;
+    margin-right: 60%;
     margin-top:4rem;
     margin-bottom: 1rem;
     align-self: start;
@@ -764,6 +767,10 @@ footer p{
     margin-left:6rem;
     margin-right:6rem;
 }
+.treat-h1{
+    font-weight: 600;
+    font-size: 3rem;
+}
 
 }
 @media(max-width:1000px){
@@ -771,6 +778,16 @@ footer p{
         text-align: start;
         margin-left:2rem;
         margin-right:2rem;
+    }
+    .treat-h1{
+        font-weight: 600;
+        font-size: 3rem;
+        margin:0 auto;
+    }
+    .gallery-title{
+        font-size: 3rem;
+        margin-right: 50%;
+        margin-bottom: 0;
     }
 }
 
@@ -908,6 +925,13 @@ footer p{
         margin-left:0rem;
         margin-right:0rem;
     }
+    .treat-h1{
+        font-weight: 600;
+        font-size: 3rem;
+    }
+    .gallery-title{
+        margin-right: 40%;
+    }
 }
 @media(max-width:465px){
     .slider{
@@ -929,7 +953,9 @@ footer p{
       .treat-contact{
         padding:2rem 0rem;
     }
-
+.gallery-title{
+    padding-left:1rem;
+}
 
 }
 @media(max-width:360px){

@@ -26,7 +26,7 @@ include('mail-contact.php')
      <div class="slide">
          <div class="content">
              <a href="#cup-cakes-anchor"><h1>Cup Cakes</h1></a>
-             <p>Delicious bundles of joy lovingly made to order in a verity of flavours.
+             <p>Delicious bundles of joy lovingly made to order in a variety of flavours.
                   </p>
          </div>
      </div>
@@ -45,7 +45,7 @@ include('mail-contact.php')
 
 <p>Welcome to <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>, my home-based cake business established in 2018,
 proudly serving Radstock, Midsomer Norton, Bath and surrounding areas. Whether it’s a slice of 
-cake brought through one of our stockiest <u><i><a href="https://www.facebook.com/meadgatefarmshop/" target="_blank">found here</a></i></u>, or the dream wedding cake we have created for you, 
+cake bought through one of our stockiest <u><i><a href="https://www.facebook.com/meadgatefarmshop/" target="_blank">found here</a></i></u>, or the dream wedding cake we have created for you, 
 our aim is to dazzle your tastebuds whilst putting a smile on your face. You can be assured we will make your cake dreams come true. 
 </br> </br>Please have a look at the fantastic range of cakes and treats we have to offer, and please do get in touch with any inquiries you may have.  
 </p>
@@ -65,10 +65,10 @@ our aim is to dazzle your tastebuds whilst putting a smile on your face. You can
 <p>Let me introduce myself. I am Holly an enthusiastic and ambitious 24-year-old baker.
  Cooking and baking has always been a big part of my life, with family get togethers 
  always based around what we’re going to eat. At 16 I attended Bath College to study
-  catering and hospitality, alongside working at a local Farm shop. Jumping at any chance 
-  to make the cakes served in the farm shop café, I quickly realised my passion lied with baking. <br>
-After a few years of working in different kitchens I decided it was time to take plunge and start 
-up on my own cake business. With lots of support from my family along with opportunity to supply Meadgate Farm Shop with my cakes, <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>was born.
+  catering and hospitality, alongside working at a local farm shop. Jumping at any chance 
+  to make the cakes served in the farm shop café, I quickly realised my real passion was in baking. <br>
+After a few years of working in different kitchens I decided it was time to take the plunge and start 
+my own cake business. With lots of support from my family along with the opportunity to supply Meadgate Farm Shop with my cakes, <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>was born.
 
 </p>
 </article>
@@ -89,8 +89,8 @@ up on my own cake business. With lots of support from my family along with oppor
 Be it birthday cake, retirement cake, christening cake or just a teatime treat, 
 we do it all. If you know what design you are wanting or need a bit of help creating 
 your desired cake, leave it to us to bake something unique that is guaranteed to be the 
-centre piece for any party. All our cakes are made to order and are priced depending serving size, 
-flavours, decoration and design. For more information, please contact us through the contact form below. To see some of our work please see <a href="gallery.php#celebrate-anchor">Here.</a></p>
+centre piece for any party. All our cakes are made to order and are priced depending on serving size, 
+flavours, decoration and design. For more information, please contact us through the contact form below. Please view some of our work <a href="gallery.php#celebrate-anchor">Here.</a></p>
   
     </div>
 </article>
@@ -102,9 +102,9 @@ flavours, decoration and design. For more information, please contact us through
 <h2 id="wedding-cakes">Wedding Cakes</h2>
 <div class="box-content-pright">
 <img src="images/wedding-cake.jpg" alt="">
-<p>Let us bring your dream wedding cake to life. If you're planning your big day, 
+<p>Let us turn your dream wedding cake into a reality. If you're planning your big day, 
 we recommend booking a consultation with us, where we can meet face to face, 
-go over all the details making that dream cake a reality.<br><br>
+go over all the details making that dream cake come true.<br><br>
 Wedding cake consultation and tasting is £25 for 2 people, 
 this cost is deducted from the cake cost. Please see some of our past creations   
  <a href="gallery.php#wedding-cake-anchor">Here.</a></p>
@@ -136,7 +136,7 @@ this cost is deducted from the cake cost. Please see some of our past creations
 <p>Simple, no-fuss cakes, brownies, shortbread and other goodies to be cut
  into squares and feed a crowd. Ideal if you have a big party coming up and 
  need to order for the hundreds, or if you just need something for a planned picnic.
-  We can make to any sized order. Please get in touch with your requirement and we 
+  We can make to any size order. Please get in touch with your requirement and we 
   will be happy to help. See some of our bakes <a href="gallery.php#cup-cake-anchor">Here </a> just to get you hungry <i style="color:#C4A8D4;"class="fas fa-laugh-wink"></i>. </p>
     </div>
 </article>

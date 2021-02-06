@@ -6,7 +6,7 @@ include('inc/header.php');
 <!-- section start -->
 
 <section>
-<h1 class="title">Gallery</h1>
+<h1 class="gallery-title">Gallery</h1>
 <div id="celebrate-anchor"></div>
 <article id="celebrate-cake" class="image-box">
 <!-- celebration cake gallery start -->
