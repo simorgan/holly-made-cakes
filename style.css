@@ -648,7 +648,7 @@ footer p{
     font-weight: 800;
     font-size: 5rem;
     animation-name: title-dropdown;
-    animation-duration: 4s;
+    animation-duration: 2.5s;
 }
 @keyframes title-dropdown{
    0%{ bottom: 12rem;}
@@ -663,6 +663,7 @@ footer p{
     margin-right:auto;
     margin-top:2rem;
     background-image: url('images/treat-box/img7.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;

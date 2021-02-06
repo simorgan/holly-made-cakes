@@ -1,6 +1,7 @@
 <?php
+$movingHeader ='moving-headers.js';
 include('inc/header.php');
-include('mail-contact.php')
+include('mail-contact.php');
 ?>
 
 

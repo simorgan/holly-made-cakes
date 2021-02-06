@@ -18,15 +18,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--script sheet-->
     <script src="script.js"></script>
+    <script src="<?php echo $movingHeader?>"></script>
     <!-- google font CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
     <!-- favicon -->
     <link rel="icon" href="images/whisk.jpg">
-
-
     <title>Holly Made Cakes</title>
-    
-
 </head>
 <!-- head end  -->
 <body>

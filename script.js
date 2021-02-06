@@ -9,22 +9,22 @@ $(document).ready(function () {
             $('#sticky-main-navbar').css({ 'position': 'static', 'top': 'auto' })
         }
         // sticky nav end
-        // holly and cakes title move into view start
-        var titlePos = $('.meet-holly-title').offset().top - window.scrollY - 70;
-        var cakeTitlePos = $('.cakes-title').offset().top - window.scrollY - 70;
-        if (titlePos < 5) {
-            $('.meet-holly-title').css("right", 0)
+        // // holly and cakes title move into view start
+        // var titlePos = $('.meet-holly-title').offset().top - window.scrollY - 70;
+        // var cakeTitlePos = $('.cakes-title').offset().top - window.scrollY - 70;
+        // if (titlePos < 5) {
+        //     $('.meet-holly-title').css("right", 0)
 
-        } else {
-            $('.meet-holly-title').css("right", titlePos)
+        // } else {
+        //     $('.meet-holly-title').css("right", titlePos)
 
-        }
-        if (cakeTitlePos < 5) {
-            $('.cakes-title').css("left", 0)
-        } else {
-            $('.cakes-title').css("left", cakeTitlePos)
-        }
-        // holly and cakes title move into view end.
+        // }
+        // if (cakeTitlePos < 5) {
+        //     $('.cakes-title').css("left", 0)
+        // } else {
+        //     $('.cakes-title').css("left", cakeTitlePos)
+        // }
+        // // holly and cakes title move into view end.
 
     })
 
@@ -45,22 +45,6 @@ $(document).ready(function () {
             $('#wedding-cakes-anchor').css("bottom", anchorPos)
             $('#cup-cakes-anchor').css("bottom", anchorPos)
             $('#tray-bake-anchor').css("bottom", anchorPos)
-            // $(this).css("bottom", anchorPos);
-
-            // if (windowWidth < 900 && scrollY < 1) {
-            //     $('#meet-holly-anchor').css("bottom", "20rem")
-            //     $('#cakes-anchor').css("bottom", "31rem")
-            //     $('#wedding-cakes-anchor').css("bottom", "31rem")
-            //     $('#cup-cakes-anchor').css("bottom", "31rem")
-            //     $('#tray-bake-anchor').css("bottom", "31rem")
-
-            // } else {
-            //     $('#meet-holly-anchor').css("bottom", "3rem")
-            //     $('#cakes-anchor').css("bottom", "3rem")
-            //     $('#wedding-cakes-anchor').css("bottom", "3rem")
-            //     $('#cup-cakes-anchor').css("bottom", "3rem")
-            //     $('#tray-bake-anchor').css("bottom", "3rem")
-            // }
         })
     })
 
