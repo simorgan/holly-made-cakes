@@ -171,7 +171,7 @@ ul {
   font-size: 1rem;
 }
 
-.slide .content h1 {
+.slide .content .slider-header {
   margin-bottom: 1rem;
   font-size: 2rem;
 }

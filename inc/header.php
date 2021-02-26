@@ -3,24 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Delicious home made cakes. From celebration cakes to wedding cakes, we can create any cake to suit any occasion. Our aim is to dazzle your tastebuds whilst putting a smile on your face. You can be assured we will make your cake dreams come true. Serving Radstock, Midsomer Norton, Frome, Bath and surrounding areas.">
     <meta name="keywords" content="Cakes, Home made Cakes, wedding cakes, party cakes, cup cakes, tray bakes, ">
     <meta name="theme-color" content="#C4A8D4" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#C4A8D4">
     <!--Bootstrap CSS-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="bootstrapstylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Font Awesome-->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="fontawesomestylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <!--stylesheet--> 
-    <link rel="stylesheet" href="style.css">
+    <link rel="mainstylesheet" href="style.css">
     <!-- jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--script sheet-->
     <script src="script.js"></script>
     <?php echo $movingHeader?>
     <!-- google font CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="googlefontstylesheet">  
     <!-- favicon -->
     <link rel="icon" href="images/whisk.jpg">
     <title><?php echo $title?></title>

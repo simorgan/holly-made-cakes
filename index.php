@@ -1,6 +1,6 @@
 <?php
 $movingHeader ='<script src="moving-headers.js"></script>';
-$title ='Holly Made Cakes established 2018, proudly serving delicious mouth watering cakes to Radstock, Midsomer Norton, Frome, Bath and surrounding areas.';
+$title ='Holly Made Cakes | Radstock | Midsomer Norton | Frome | Bath..';
 include('inc/header.php');
 include('mail-contact.php');
 ?>
@@ -15,26 +15,26 @@ include('mail-contact.php');
 <!-- slide images start -->
      <div class="slide current">
         <div class="content">
-           <a href="#cakes"><h1>Celebration Cakes</h1></a>
+           <a href="#cakes"><p class="slider-header">Celebration Cakes</p></a>
              <p>Custom made cakes made to suit any occasion, guaranteed to impress your guests. </p>
          </div>
      </div>
      <div class="slide">
          <div class="content">
-            <a href="#wedding-cakes-anchor"> <h1>Wedding Cakes</h1></a>
+            <a href="#wedding-cakes-anchor"> <p class="slider-header">Wedding Cakes</p></a>
              <p>Let us bring your dream wedding cake to life and be a part of your big day.</p>
          </div>
      </div>
      <div class="slide">
          <div class="content">
-             <a href="#cup-cakes-anchor"><h1>Cup Cakes</h1></a>
+             <a href="#cup-cakes-anchor"><p class="slider-header">Cup Cakes</p></a>
              <p>Delicious bundles of joy lovingly made to order in a variety of flavours.
                   </p>
          </div>
      </div>
      <div class="slide">
          <div class="content">
-             <a href="treat-box.php"><h1>Treat Box</h1></a>
+             <a href="treat-box.php"><p class="slider-header">Treat Box</p></a>
              <p>This adorable mobile unit provides a unique sense of occasion to any event, and an unforgettable experience for your guests.</p>
          </div>
      </div>
@@ -59,7 +59,7 @@ our aim is to dazzle your tastebuds whilst putting a smile on your face. You can
 <section>
 <!-- meet holly section start -->
 <div id="meet-holly-anchor"></div>
-<p class="meet-holly-title">Meet Holly</p>
+<h1 class="meet-holly-title">Meet Holly</h1>
 
 <article id="meet-holly">
 
