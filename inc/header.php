@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home Made Cakes">
-    <meta name="keywords" content="Cakes, Home made Cakes,">
+    <meta name="description" content="">
+    <meta name="keywords" content="Cakes, Home made Cakes, wedding cakes, party cakes, cup cakes, tray bakes, ">
     <meta name="theme-color" content="#C4A8D4" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#C4A8D4">
@@ -18,12 +18,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--script sheet-->
     <script src="script.js"></script>
-    <script src="<?php echo $movingHeader?>"></script>
+    <?php echo $movingHeader?>
     <!-- google font CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
     <!-- favicon -->
     <link rel="icon" href="images/whisk.jpg">
-    <title>Holly Made Cakes</title>
+    <title><?php echo $title?></title>
 </head>
 <!-- head end  -->
 <body>
@@ -51,7 +51,7 @@
 <li class="nav-item  dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Cakes</a>
     <div class="dropdown-menu dropdown-coll">
-      <a id ="celebration-link"class="dropdown-item" href="index.php#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
+      <a id ="celebration-link" class="dropdown-item" href="index.php#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
       <a id="wedding-cakes-link" class="dropdown-item" href="index.php#wedding-cakes-anchor">Wedding Cakes</a>
       <a id="cup-cake-link" class="dropdown-item" href="index.php#cup-cakes-anchor">Cup Cakes</a>
       <a id="tray-bake-link" class="dropdown-item" href="index.php#tray-bake-anchor">Tray Bakes</a>

@@ -1,6 +1,6 @@
 
 <div class="footer-topper">
-<a class="fab fa-instagram" href=""> FOLLOW ME!</a>
+<a class="fab fa-instagram" href="https://www.instagram.com/hollymadecakes/?hl=en"> FOLLOW ME!</a>
 </div>
 
 <footer id="footer">

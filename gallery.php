@@ -1,7 +1,7 @@
 <?php
+$title = 'Just a few of Holly Made Cake&apos;s past creations. A gallery full of dreamy cakes and treats';
 include('inc/header.php');
 ?>
-
 
 <!-- section start -->
 
@@ -155,6 +155,7 @@ include('inc/header.php');
 <!-- other yummy treats end-->
 </section>
 <!-- section end -->
+</div>
 <?php
 include('inc/inc-script.php');
 

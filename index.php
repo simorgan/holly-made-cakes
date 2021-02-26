@@ -1,5 +1,6 @@
 <?php
-$movingHeader ='moving-headers.js';
+$movingHeader ='<script src="moving-headers.js"></script>';
+$title ='Holly Made Cakes established 2018, proudly serving delicious mouth watering cakes to Radstock, Midsomer Norton, Frome, Bath and surrounding areas.';
 include('inc/header.php');
 include('mail-contact.php');
 ?>
@@ -45,10 +46,10 @@ include('mail-contact.php');
 <!-- slideshow container end  -->
 
 <p>Welcome to <span class="inline-title-background"> <span class="inline-title">Holly Made</span> <span class="inline-title-cake" > Cakes</span> </span>, my home-based cake business established in 2018,
-proudly serving Radstock, Midsomer Norton, Bath and surrounding areas. Whether it’s a slice of 
-cake bought through one of our stockiest <u><i><a href="https://www.facebook.com/meadgatefarmshop/" target="_blank">found here</a></i></u>, or the dream wedding cake we have created for you, 
+proudly serving Radstock, Midsomer Norton, Frome, Bath and surrounding areas. Whether it’s a slice of 
+cake bought through one of our stockiest <a href="https://www.facebook.com/meadgatefarmshop/" target="_blank">found here</a>, or the dream wedding cake we have created for you, 
 our aim is to dazzle your tastebuds whilst putting a smile on your face. You can be assured we will make your cake dreams come true. 
-</br> </br>Please have a look at the fantastic range of cakes and treats we have to offer, and please do get in touch with any inquiries you may have.  
+<br> <br>Please have a look at the fantastic range of cakes and treats we have to offer, and please do get in touch with any inquiries you may have.  
 </p>
 
 </article>
@@ -58,11 +59,11 @@ our aim is to dazzle your tastebuds whilst putting a smile on your face. You can
 <section>
 <!-- meet holly section start -->
 <div id="meet-holly-anchor"></div>
-<p class="meet-holly-title">Meet Holly<img src="images/whisk.jpg" alt=""></p>
+<p class="meet-holly-title">Meet Holly</p>
 
 <article id="meet-holly">
 
-<img class="holly-image" src="images/holly.jpg" alt="">
+<img class="holly-image" src="images/holly.jpg" alt="Picture of holly, infront of a sign displaying the Holly Made Cakes logo">
 <p>Let me introduce myself. I am Holly an enthusiastic and ambitious 24-year-old baker.
  Cooking and baking has always been a big part of my life, with family get togethers 
  always based around what we’re going to eat. At 16 I attended Bath College to study
@@ -78,14 +79,14 @@ my own cake business. With lots of support from my family along with the opportu
 <!-- meet holly section end -->
 <!-- cakes section start -->
 <div id="cakes-anchor"></div>
-<p class="cakes-title"><img src="images/whisk.jpg" alt="">Cakes</p>
+<p class="cakes-title">Cakes</p>
 <section id="cakes">
 
 <!-- celebration cakes article start -->
 <article class="celebration-cakes">
 <h2 >Celebration Cakes</h2>
 <div class="box-content-pleft">
-    <img src="images/celebration-cake.jpg" alt="">
+    <img src="images/celebration-cake.jpg" alt="Picture of a celebration cake make by Holly Made Cakes.">
 <p>Do you have a special celebration coming up or want to treat someone special?
 Be it birthday cake, retirement cake, christening cake or just a teatime treat, 
 we do it all. If you know what design you are wanting or need a bit of help creating 
@@ -102,7 +103,7 @@ flavours, decoration and design. For more information, please contact us through
 
 <h2 id="wedding-cakes">Wedding Cakes</h2>
 <div class="box-content-pright">
-<img src="images/wedding-cake.jpg" alt="">
+<img src="images/wedding-cake.jpg" alt="Picture of a wedding cake made bt Holly Made Cake.">
 <p>Let us turn your dream wedding cake into a reality. If you're planning your big day, 
 we recommend booking a consultation with us, where we can meet face to face, 
 go over all the details making that dream cake come true.<br><br>
@@ -120,7 +121,7 @@ this cost is deducted from the cake cost. Please see some of our past creations
 <article class="cup-cakes">
 <h2 id="cup-cakes">Cup Cakes</h2>
 <div class="box-content-pleft">
-    <img src="images/cup-cakes.jpg" alt="">
+    <img src="images/cup-cakes.jpg" alt="Picture of some cup-cakes made bt Holly Made Cakes.">
 <p>Who does not like a cupcake? We make cupcakes to order which are available in a
  range of flavours and styles to suit. So, if you are planning a party or just a family get together,
   make sure to add some of our amazing cupcakes to the food table. Cupcakes start from £1.50 each. 
@@ -133,18 +134,18 @@ this cost is deducted from the cake cost. Please see some of our past creations
 <article class="tray-bakes">   
 <h2 id="tray-bakes">Tray Bakes</h2>
 <div class="box-content-pright">
-    <img src="images/tray-bakes.jpg" alt="">
+    <img src="images/tray-bakes.jpg" alt="Picture of tray baje examples made by Holly Made Cakes.">
 <p>Simple, no-fuss cakes, brownies, shortbread and other goodies to be cut
  into squares and feed a crowd. Ideal if you have a big party coming up and 
  need to order for the hundreds, or if you just need something for a planned picnic.
   We can make to any size order. Please get in touch with your requirement and we 
-  will be happy to help. See some of our bakes <a href="gallery.php#cup-cake-anchor">Here </a> just to get you hungry <i style="color:#C4A8D4;"class="fas fa-laugh-wink"></i>. </p>
+  will be happy to help. See some of our bakes <a href="gallery.php#cup-cake-anchor">Here </a> just to get you hungry <i style="color:#C4A8D4;" class="fas fa-laugh-wink"></i>. </p>
     </div>
 </article>
 <!-- tray bakes article end -->
 
 <!-- cakes section end -->
-
+</section>
 
 <!-- contact form start -->
 <div id="contact-form-anchor"></div>
@@ -153,35 +154,35 @@ this cost is deducted from the cake cost. Please see some of our past creations
 <h2>Contact Us</h2>
 <p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly.</p>
 <form id="contactFormDisplay" method="POST">
-  <div class="form-group">
+  
 
  
-    <label for="InputName">Name</label>
-    <p class="alert-danger hiddenError" id="name">Please enter you name.</p>
-    <input type="text" class="form-control" name="name" id="inputName" aria-describedby="Contact Name" placeholder="Enter Name">
+    <label for="inputName">Name</label>
+    <p class="alert-danger hiddenError" id="name">Please enter your name.</p>
+    <input type="text" class="form-control" name="name" id="inputName"  placeholder="Enter Name">
     
-    <label for="InputNumber">Contact Number</label>
+    <label for="inputContactNum">Contact Number</label>
     <p class="alert-danger hiddenError" id="contactNum">Please enter your contact number.</p>
     <input type="tel" class="form-control" name="contactNumber" id="inputContactNum" aria-describedby="emailHelp" placeholder="Enter Contact Number">
     
  
-    <label for="exampleInputEmail1">Email address</label>
+    <label for="inputEmail">Email address</label>
     <p class="alert-danger hiddenError" id="email">Please enter your email address.</p>
-    <input type="email" class="form-control" name="email" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" class="form-control" name="email" id="inputEmail" placeholder="Enter email">
     
     <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
 
 
 
  
-    <label for="exampleInputPassword1">Message</label>
+    <label for="inputMessage">Message</label>
     <p class="alert-danger hiddenError" id="message">Please include your inquiry.</p>
-    <textarea type="text" class="form-control" name="message" rows="6" id="inputMessage" placeholder="Enter your message..."></textarea>
-    <p class="alert-danger hiddenError" id="noCheck">Please confirm you arrgee to the terms of service!</p>  
+    <textarea class="form-control" name="message" rows="6" id="inputMessage" placeholder="Enter your message..."></textarea>
+    <p class="alert-danger hiddenError" id="noCheck">Please confirm you arrgee to the Privacy Policy</p>  
   <div class="form-check">
   
   <input type="checkbox" class="form-check-input checkbox-pad" name="checkBox" id="checkBox" >
-    <label class="form-check-label" for="checkBox">I have read and agree to the <a href="#"> terms of service</a></label>  
+    <label class="form-check-label" for="checkBox">I have read and agree to the <a href="/privacy.php"> Privacy Policy</a></label>  
   </div>
   <input type="hidden" name="contact-type" value="Website" id="treat-box-contact">
 <input type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary" >
@@ -190,11 +191,11 @@ this cost is deducted from the cake cost. Please see some of our past creations
 
 </div>
 
-</div>
+
 
 <!-- contact form end -->
 
-</section>
+
 
 
 <!-- include body scripts -->
