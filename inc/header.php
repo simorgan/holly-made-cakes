@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Delicious home made cakes. From celebration cakes to wedding cakes, we can create any cake to suit any occasion. Our aim is to dazzle your tastebuds whilst putting a smile on your face. You can be assured we will make your cake dreams come true. Serving Radstock, Midsomer Norton, Frome, Bath and surrounding areas.">
-    <meta name="keywords" content="Cakes, Home made Cakes, wedding cakes, party cakes, cup cakes, tray bakes, ">
+    <meta name="keywords" content="Cakes, Home made Cakes, wedding cakes, party cakes, cup cakes, tray bakes, birthday cakes ">
     <meta name="theme-color" content="#C4A8D4" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#C4A8D4">

@@ -1,6 +1,6 @@
 <?php
 $movingHeader ='<script src="moving-headers.js"></script>';
-$title ='Holly Made Cakes | Radstock | Midsomer Norton | Frome | Bath..';
+$title ='Holly Made Cakes | Radstock | Midsomer Norton | Frome | Bath';
 include('inc/header.php');
 include('mail-contact.php');
 ?>

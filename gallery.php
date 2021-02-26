@@ -1,5 +1,5 @@
 <?php
-$title = 'Just a few of Holly Made Cake&apos;s past creations. A gallery full of dreamy cakes and treats';
+$title = 'Just a few of Holly Made Cake&apos;s past creations.';
 include('inc/header.php');
 ?>
 
