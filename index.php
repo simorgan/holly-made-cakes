@@ -1,5 +1,4 @@
 <?php
-$movingHeader ='<script src="moving-headers.js"></script>';
 $title ='Holly Made Cakes | Radstock | Midsomer Norton | Frome | Bath';
 include('inc/header.php');
 include('mail-contact.php');
@@ -199,7 +198,8 @@ this cost is deducted from the cake cost. Please see some of our past creations
 
 
 <!-- include body scripts -->
-<script src="gallerySlider.js"></script>
+<script src="js/gallerySlider.js"></script>
+<script src="js/moving-headers.js"></script>
 <?php
 include('inc/inc-script.php');
 

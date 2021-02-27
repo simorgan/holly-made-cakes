@@ -785,6 +785,12 @@ footer p {
     font-weight: 600;
     font-size: 3rem;
   }
+  .contact-form {
+    width: 40%;
+  }
+  .contact-form-treat-box {
+    width: 50%;
+  }
 }
 @media (max-width: 1000px) {
   .treat-contact .contact-form {
@@ -801,6 +807,12 @@ footer p {
     font-size: 3rem;
     margin-right: 50%;
     margin-bottom: 0;
+  }
+  .contact-form {
+    width: 45%;
+  }
+  .contact-form-treat-box {
+    width: 70%;
   }
 }
 
@@ -903,9 +915,6 @@ footer p {
     padding: 1rem;
   }
 
-  .contact-form {
-    margin: 0;
-  }
   #footer {
     font-size: 10px;
   }
@@ -921,13 +930,12 @@ footer p {
     top: 1rem;
     left: 1rem;
   }
-  .treat-contact {
-    padding: 2rem 4rem;
+
+  .contact-form {
+    width: 50%;
   }
-  .treat-contact .contact-form {
-    text-align: start;
-    margin-left: 0rem;
-    margin-right: 0rem;
+  .contact-form-treat-box {
+    width: 100%;
   }
   .treat-h1 {
     font-weight: 600;
@@ -937,11 +945,33 @@ footer p {
     margin-right: 40%;
   }
 }
+@media (max-width: 600px) {
+  .contact-form {
+    width: 60%;
+  }
+  .contact-form-treat-box {
+    width: 100%;
+  }
+}
 @media (max-width: 465px) {
   .slider {
     width: 300px;
     height: 400px;
   }
+  .slide .content {
+    padding: 0;
+  }
+  .slide .content p {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+
+  .slide .content .slider-header {
+    margin-bottom: 0;
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+
   .column {
     flex: 100%;
     max-width: 100%;
@@ -959,6 +989,9 @@ footer p {
   }
   .gallery-title {
     padding-left: 1rem;
+  }
+  .contact-form {
+    width: 80%;
   }
 }
 @media (max-width: 360px) {

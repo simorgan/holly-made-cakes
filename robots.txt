@@ -1,0 +1,9 @@
+user-agent: *
+Disallow: /privacy/
+Disallow: *.html$
+Disallow: /maintance/
+Disallow: /inc/
+Disallow: /images/
+Disallow: /phpMailer/
+Disallow: /mail-contact/
+Disallow: /js/
