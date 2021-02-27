@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,6 +25,7 @@
     <!-- favicon -->
     <link rel="icon" href="images/whisk.jpg">
     <title><?php echo $title?></title>
+    <link rel="canonical" href="https://hollymadecakes.co.uk">
 </head>
 <!-- head end  -->
 <body>
