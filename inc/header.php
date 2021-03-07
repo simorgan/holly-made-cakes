@@ -9,7 +9,7 @@
     <meta name="theme-color" content="#C4A8D4" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="#C4A8D4">
-    <link href="https://www.hollymadecakes.co.uk" rel="canonical">
+    <link href="https://www.hollymadecakes.co.uk/index.php" rel="canonical">
     <!--Bootstrap CSS-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Font Awesome-->
