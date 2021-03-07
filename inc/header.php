@@ -23,7 +23,7 @@
     <!-- google font CDN -->
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <!-- favicon -->
-    <link rel="icon" href="images/whisk.jpg">
+    <link rel="icon" href="images/favicon.png">
     <!-- title -->
     <title><?php echo $title?></title>
 
