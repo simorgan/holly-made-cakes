@@ -36,7 +36,7 @@
 <div id="wapper" class="wapper">
 <!-- header start -->
 <header class="head-top d-flex justify-content-center">
-<a href="index.php"><img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018."></a>
+<a href="<?php echo($page)?>"><img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018."></a>
 </header>
 <!-- header end -->
 <!-- top nav start -->
@@ -48,7 +48,8 @@
   <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
   <ul class="navbar-nav">
 <li class="nav-item">
-    <a class="nav-link" href="index.php">Home</a>
+
+    <a class="nav-link" href="<?php echo($page)?>">Home</a>
 </li>
 <li class="nav-item">
     <a id="meet-holly-link" class="nav-link smooth dropdown-hide" href="#meet-holly-anchor">Meet Holly</a>
@@ -56,10 +57,10 @@
 <li class="nav-item  dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Cakes</a>
     <div class="dropdown-menu dropdown-coll">
-      <a id ="celebration-link" class="dropdown-item" href="#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
-      <a id="wedding-cakes-link" class="dropdown-item" href="#wedding-cakes-anchor">Wedding Cakes</a>
-      <a id="cup-cake-link" class="dropdown-item" href="#cup-cakes-anchor">Cup Cakes</a>
-      <a id="tray-bake-link" class="dropdown-item" href="#tray-bake-anchor">Tray Bakes</a>
+      <a id ="celebration-link" class="dropdown-item" href="<?php echo($page)?>#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
+      <a id="wedding-cakes-link" class="dropdown-item" href="<?php echo($page)?>#wedding-cakes-anchor">Wedding Cakes</a>
+      <a id="cup-cake-link" class="dropdown-item" href="<?php echo($page)?>#cup-cakes-anchor">Cup Cakes</a>
+      <a id="tray-bake-link" class="dropdown-item" href="<?php echo($page)?>#tray-bake-anchor">Tray Bakes</a>
     </div>
 </li>
 <li class="nav-item">
@@ -69,7 +70,7 @@
     <a class="nav-link" href="treat-box.php">The Treat Box</a>
 </li>
 <li class="nav-item">
-    <a class="nav-link dropdown-hide" href="index.php#contact-form-anchor">Contact US</a>
+    <a class="nav-link dropdown-hide" href="<?php echo($page)?>#contact-form-anchor">Contact US</a>
 </li>
 </ul>
   </div>

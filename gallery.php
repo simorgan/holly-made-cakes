@@ -1,5 +1,6 @@
 <?php
 $title = 'Just a few of Holly Made Cake&apos;s past creations.';
+$page = 'index.php';
 include('inc/header.php');
 ?>
 

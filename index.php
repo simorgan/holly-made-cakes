@@ -1,5 +1,6 @@
 <?php
 $title ='Holly Made Cakes | Radstock | Midsomer Norton | Frome | Bath';
+$page = '';
 include('inc/header.php');
 include('mail-contact.php');
 ?>

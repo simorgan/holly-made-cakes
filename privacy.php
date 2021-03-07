@@ -1,5 +1,6 @@
 <?php
 $title = 'Privacy Policy';
+$page = 'index.php';
 include('inc/header.php');
 ?>
 <div class="privacy-contaner">

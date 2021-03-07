@@ -1,5 +1,6 @@
 <?php
 $title = 'The Treat Box, available for hire offring fresh local produce alongside a variety of cakes.';
+$page = 'index.php';
 include('inc/header.php');
 include('mail-contact.php');
 ?>
