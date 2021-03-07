@@ -51,15 +51,15 @@
     <a class="nav-link" href="index.php">Home</a>
 </li>
 <li class="nav-item">
-    <a id="meet-holly-link" class="nav-link smooth dropdown-hide" href="index.php#meet-holly-anchor">Meet Holly</a>
+    <a id="meet-holly-link" class="nav-link smooth dropdown-hide" href="#meet-holly-anchor">Meet Holly</a>
 </li>
 <li class="nav-item  dropdown">
     <a class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="#">Cakes</a>
     <div class="dropdown-menu dropdown-coll">
-      <a id ="celebration-link" class="dropdown-item" href="index.php#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
-      <a id="wedding-cakes-link" class="dropdown-item" href="index.php#wedding-cakes-anchor">Wedding Cakes</a>
-      <a id="cup-cake-link" class="dropdown-item" href="index.php#cup-cakes-anchor">Cup Cakes</a>
-      <a id="tray-bake-link" class="dropdown-item" href="index.php#tray-bake-anchor">Tray Bakes</a>
+      <a id ="celebration-link" class="dropdown-item" href="#cakes-anchor" data-target=".navbar-collapse.show">Celebration Cakes</a>
+      <a id="wedding-cakes-link" class="dropdown-item" href="#wedding-cakes-anchor">Wedding Cakes</a>
+      <a id="cup-cake-link" class="dropdown-item" href="#cup-cakes-anchor">Cup Cakes</a>
+      <a id="tray-bake-link" class="dropdown-item" href="#tray-bake-anchor">Tray Bakes</a>
     </div>
 </li>
 <li class="nav-item">
