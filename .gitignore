@@ -1,1 +1,7 @@
 mail-contact.php
+._mail-contact.php
+.htaccess
+.htaccess.swp
+phpMailer/examples/.DS_Store
+phpMailer/examples/._.DS_Store
+.DS_Store

@@ -13,19 +13,19 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-    <!--stylesheet--> 
+    <!--stylesheet-->
     <link rel="stylesheet" href="style.css">
     <!-- jquery CDN -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--script sheet-->
     <script src="js/script.js"></script>
     <!-- google font CDN -->
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <!-- favicon -->
     <link rel="icon" href="images/whisk.jpg">
     <!-- title -->
     <title><?php echo $title?></title>
-    <link rel="canonical" href="https://hollymadecakes.co.uk">
+    <link rel="canonical" href="https://www.hollymadecakes.co.uk">
 </head>
 <!-- head end  -->
 <body>
@@ -80,5 +80,5 @@
     <li class="nav-item d-inline"><a href="https://www.instagram.com/hollymadecakes/?hl=en" class="fab fa-instagram"></a></li>
 </ul>
 
-</nav> 
+</nav>
 <!-- social media side nav end -->
