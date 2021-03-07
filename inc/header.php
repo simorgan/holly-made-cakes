@@ -36,7 +36,7 @@
 <div id="wapper" class="wapper">
 <!-- header start -->
 <header class="head-top d-flex justify-content-center">
-<a href="www.hollymadecakes.co.uk/"><img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018."></a>
+<a href="index.php"><img src="images/logo.png" alt="Holly Make Cakes Logo, establised 2018."></a>
 </header>
 <!-- header end -->
 <!-- top nav start -->
@@ -49,7 +49,7 @@
   <ul class="navbar-nav">
 <li class="nav-item">
 
-    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="index.php">Home</a>
 </li>
 <li class="nav-item">
     <a id="meet-holly-link" class="nav-link smooth dropdown-hide" href="index.php#meet-holly-anchor">Meet Holly</a>
