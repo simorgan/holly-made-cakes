@@ -7,3 +7,4 @@ phpMailer/examples/.DS_Store
 phpMailer/examples/._.DS_Store
 .DS_Store
 ._.gitignore
+phpMailer
