@@ -59,6 +59,7 @@ include('mail-contact.php');
                     </div>
                   <input type="hidden" name="contact-type" value="Treat Box" id="treat-box-contact">
                   <input type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary" >
+                  <p class="junkBoxNote">Please keep an eye on your junk/spam box for our reply.</p>
                 </form>
 
             </div>

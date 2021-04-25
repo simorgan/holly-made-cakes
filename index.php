@@ -152,7 +152,7 @@ this cost is deducted from the cake cost. Please see some of our past creations
 <div class="contact-form content-box" id="contactForm">
  
 <h2>Contact Us</h2>
-<p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly.</p>
+<p class="alert alert-success" id="confirmHidden">Thank you for your inquiry, we will be in contact shortly, please ensure to check your junk/spam box if you have not heard back from us.</p>
 <form id="contactFormDisplay" method="POST">
   
 
@@ -186,7 +186,8 @@ this cost is deducted from the cake cost. Please see some of our past creations
   </div>
   <input type="hidden" name="contact-type" value="Website" id="treat-box-contact">
 <input type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary" >
-  <!-- <button type="submit" name="contactSubmited" id="submitContact" class="btn btn-primary">Submit</button> -->
+<p class="junkBoxNote">Please keep an eye on your junk/spam box for our reply.</p>
+ 
 </form>
 
 </div>
